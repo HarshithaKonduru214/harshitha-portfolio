@@ -205,11 +205,12 @@ section {
     margin-left: 8rem;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 800px) {
     .projects {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      margin-left: 3rem;
+      margin-bottom: 1.5rem;
     }
 
     .skills > img {
@@ -224,6 +225,25 @@ section {
     .skills {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-image > img {
+        max-width: 10rem;
+    }
+
+    .blog-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-title > a {
+       margin-left: 4rem;
+       margin-bottom: 1rem;
     }
   }
 
